@@ -5,4 +5,7 @@
 # @Site    : 
 # @File    : demo.py
 # @Software: PyCharm
-print('hello yuan')
+import requests
+res = requests.get('http://www.baidu.com')
+print(res.status_code)
+# print('hello yuan')
