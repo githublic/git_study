@@ -10,4 +10,6 @@ res = requests.get('http://www.baidu.com')
 print(res.status_code)
 if res.status_code==200:
     print('连接成功')
+else:
+    print('网络连接错误')
 # print('hello yuan')
